@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    height: 100vh;
+  }
+
+  div{
+     margin : 0 auto;
+     border: 2px solid red;
+     width: 700px;
+     min-height: 100%;
+  }
+
+  div h2 {
+    text-align: center;
+  
+  }
+
+  .form {
+      padding : 25px;
+      text-align: center;
+  }
+
+
+  .form input {
+      height: 2rem;
+  }
+  .form button { 
+    cursor: pointer;
+    height: 2rem;
+  }
+
+  ul {
+      margin: 0 25%;
+    
+      
+  }
+
+  ul > li {
+      padding : 5% 0;
+      display: flex;
+      justify-content: space-around;
+      border : 2px solid salmon;
+      margin : 5% 0 ;
+      
+  }
+
+  li button {
+      border-radius: 10px;
+      width: 5rem;
+      padding : 0;
+      height: 2.5rem;
+      align-self: center;
+      cursor: pointer;
+  }
+
+
+
+
+
